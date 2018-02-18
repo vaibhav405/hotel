@@ -1,0 +1,122 @@
+.form-container{
+  width: 100%;
+  position: relative;
+  height:509px;
+  background: linear-gradient(to bottom, transparent, white, white);
+  .container { position: relative;}
+  h3 { font-weight: inherit; margin-left: 5%;
+    display: inline-block;
+    padding: 20px 0; }
+  .contact-form{
+    position: absolute;
+    top: -70px;  
+    height: 520px;
+    background: white;
+    overflow: hidden;
+    box-shadow: 0 2px 10px 1px lightgrey;
+    display: flex; width: 100%;
+    margin-top: 4rem;         
+    form{
+      flex-basis: 70%;
+      height: 100%;
+      padding: 2rem 3rem;
+      input{
+        box-shadow: none;
+        height: 44px;
+      }
+      textarea{
+        height: auto;
+      }
+    }
+    .kando{
+      flex-basis: 50%;
+      height: 100%;
+      padding: 4rem 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h5{
+        color: whitesmoke;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.1;
+        margin-top: 14px;
+        margin-bottom: 25px;
+      }
+      .contact-info{
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+        a{
+          text-decoration: none;
+          color: whitesmoke;
+          font:{
+            size: 30px;
+          }
+        }
+        span{
+          color: whitesmoke;
+          display: block;
+          font:{
+            size: 0.9rem;
+          }
+        }
+      }
+      .embedded-wrapper .embedded-footer {
+        position: absolute;
+        bottom: 0;
+        padding: 44px 0;
+        bottom:68px;
+    }
+      .social{
+        display: flex;
+        justify-content: center;
+        margin: 0rem 0 1rem 0;
+        a{
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+          border: 1px solid whitesmoke;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          margin-right: 8px;
+          transition: border-color 500ms;
+          &:hover{
+            border-color: transparent;
+          }
+          i{
+            color: whitesmoke;
+          }
+        }
+      }
+    }
+  }
+}
+
+h3{
+  font-size: 42px;
+}
+.info {
+  background: #17a3ff;
+}
+H6 {
+  color: whitesmoke;
+  font-size: 40px;
+}
+p {
+  color: whitesmoke;
+  font-size: 20px;
+}
+.fa-5x {
+  color: whitesmoke;
+  font-size: 5em;
+}
+
+.container {
+    height: -28px;
+    width: 1170px;
+    margin: 108px -13px 0;
+}
